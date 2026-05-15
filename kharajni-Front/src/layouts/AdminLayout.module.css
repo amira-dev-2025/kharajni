@@ -6,6 +6,12 @@
 
 .sidebar {
   width: 280px;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
   background: linear-gradient(180deg, #123b36 0%, #0f2f2b 100%);
   color: white;
 
@@ -14,6 +20,8 @@
   justify-content: space-between;
 
   padding: 1.5rem;
+
+  overflow-y: auto;
 }
 
 .logo {
@@ -149,6 +157,12 @@
 }
 
 .content {
-  flex: 1;
+  margin-left: 280px;
+  width: calc(100% - 280px);
+
   padding: 2rem;
+
+  min-height: 100vh;
+
+  overflow-x: hidden;
 }
