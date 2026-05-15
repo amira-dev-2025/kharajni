@@ -1,0 +1,245 @@
+.page {
+  padding: 32px;
+  background: #f5f7fb;
+  min-height: 100vh;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #17363d;
+  margin: 0;
+}
+
+.subtitle {
+  color: #5d6b74;
+  margin-top: 6px;
+  font-size: 18px;
+}
+
+.addBtn {
+  background: linear-gradient(135deg, #17363d, #0f5b5b);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  height: 52px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.addBtn:hover {
+  transform: translateY(-2px);
+}
+
+.statsCard {
+  background: white;
+  border-radius: 24px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.statsIcon {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: #dff5e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d7a52;
+  font-size: 28px;
+}
+
+.statsCard p {
+  margin: 0;
+  color: #697780;
+}
+
+.statsCard h2 {
+  margin: 0;
+  font-size: 40px;
+  color: #17363d;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 24px;
+}
+
+.tableCard {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background: linear-gradient(135deg, #17363d, #0f5b5b);
+}
+
+.table thead th {
+  color: white;
+  text-align: left;
+  padding: 22px;
+  font-size: 15px;
+}
+
+.table tbody td {
+  padding: 22px;
+  border-bottom: 1px solid #edf1f4;
+}
+
+.schoolCell {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: #edf3ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #17363d;
+  font-size: 24px;
+}
+
+.schoolCell h4 {
+  margin: 0;
+  font-size: 17px;
+  color: #17363d;
+}
+
+.schoolCell p {
+  margin: 4px 0 0;
+  color: #6b7a83;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.editBtn,
+.deleteBtn {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.editBtn {
+  background: #ffca28;
+}
+
+.deleteBtn {
+  background: #f44336;
+  color: white;
+}
+
+.footerTable {
+  padding: 20px;
+  color: #6f7b82;
+}
+
+.formCard {
+  background: white;
+  border-radius: 24px;
+  padding: 28px;
+  height: fit-content;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.formHeader h3 {
+  margin: 0;
+  font-size: 30px;
+  color: #17363d;
+}
+
+.closeBtn {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+}
+
+.field {
+  margin-bottom: 22px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 10px;
+  color: #17363d;
+  font-weight: 500;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: 1px solid #dbe3e8;
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-size: 15px;
+}
+
+.field textarea {
+  height: 140px;
+  resize: none;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.cancelBtn {
+  border: 1px solid #d9e0e4;
+  background: white;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+
+.saveBtn {
+  border: none;
+  background: linear-gradient(135deg, #17363d, #0f5b5b);
+  color: white;
+  border-radius: 12px;
+  padding: 12px 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

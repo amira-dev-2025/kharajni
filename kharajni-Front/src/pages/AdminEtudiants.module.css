@@ -1,0 +1,221 @@
+.page{
+  padding:30px;
+  background:#f5f7fb;
+  min-height:100vh;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:25px;
+}
+
+.title{
+  font-size:42px;
+  font-weight:700;
+  color:#123c3d;
+  margin:0;
+}
+
+.subtitle{
+  color:#6b7280;
+  margin-top:5px;
+}
+
+.addBtn{
+  background:#123c3d;
+  color:white;
+  border:none;
+  padding:14px 22px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.statsCard{
+  background:white;
+  border-radius:20px;
+  padding:24px;
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin-bottom:25px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.statsIcon{
+  width:60px;
+  height:60px;
+  background:#dff5ea;
+  color:#0f8a5f;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+}
+
+.statsLabel{
+  color:#6b7280;
+}
+
+.statsValue{
+  font-size:36px;
+  font-weight:700;
+  color:#123c3d;
+}
+
+.contentGrid{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:25px;
+}
+
+.tableCard{
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.tableHead{
+  background:#123c3d;
+  color:white;
+}
+
+.tableHead th{
+  padding:20px !important;
+  border:none !important;
+}
+
+.studentInfo{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.avatar{
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  background:#123c3d;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+}
+
+.studentName{
+  font-weight:600;
+}
+
+.studentRole{
+  color:#6b7280;
+  font-size:14px;
+}
+
+.email{
+  color:#4b5563;
+}
+
+.actions{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+}
+
+.editBtn,
+.deleteBtn{
+  width:42px;
+  height:42px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.editBtn{
+  background:#facc15;
+}
+
+.deleteBtn{
+  background:#ef4444;
+  color:white;
+}
+
+.formCard{
+  background:white;
+  border-radius:20px;
+  padding:25px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+  height:fit-content;
+}
+
+.formHeader{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  margin-bottom:20px;
+}
+
+.formHeader h3{
+  margin:0;
+  color:#123c3d;
+}
+
+.formHeader p{
+  color:#6b7280;
+  margin-top:5px;
+}
+
+.closeBtn{
+  background:none;
+  border:none;
+  font-size:20px;
+  cursor:pointer;
+}
+
+.formGroup{
+  margin-bottom:18px;
+}
+
+.formGroup label{
+  display:block;
+  margin-bottom:8px;
+  font-weight:600;
+}
+
+.formGroup input{
+  width:100%;
+  padding:14px;
+  border:1px solid #d1d5db;
+  border-radius:12px;
+}
+
+.formActions{
+  display:flex;
+  justify-content:flex-end;
+  gap:12px;
+  margin-top:25px;
+}
+
+.cancelBtn{
+  background:#f3f4f6;
+  border:none;
+  padding:12px 20px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.saveBtn{
+  background:#123c3d;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:10px;
+  cursor:pointer;
+}
